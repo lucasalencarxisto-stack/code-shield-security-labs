@@ -1,0 +1,27 @@
+# Senhas, autenticação e artefatos sensíveis
+.env
+.env.*
+*.secret
+*.secrets
+*credentials*
+*password*
+*senha*
+*.potfile
+*.hash
+*.key
+*.pem
+*.pfx
+*.pcap
+*.pcapng
+*.cap
+hydra.restore
+.DS_Store
+Thumbs.db
+
+# Arquivos criados em testes, caches e logs locais
+upload-probe.txt
+*.log
+*.tmp
+*.bak
+__pycache__/
+.vscode/
